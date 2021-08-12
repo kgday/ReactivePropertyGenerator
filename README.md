@@ -8,4 +8,3 @@ Save yourself the trouble of typing the fields and then the properties with this
 type the fields decorated with [ReactiveProp].  The properties will be generated for you and you can use them as though you typed them yourself.  The property name can be added as 
 a parameter or else the property will be derived from the field name.
 
-MIT Licence
