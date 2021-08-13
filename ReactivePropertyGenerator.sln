@@ -3,9 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactivePropertyGenerator", "ReactivePropertyGenerator\ReactivePropertyGenerator.csproj", "{2C6F4034-D6DC-48E7-B520-5B1D519D31D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactivePropertyGenerator", "ReactivePropertyGenerator\ReactivePropertyGenerator.csproj", "{2C6F4034-D6DC-48E7-B520-5B1D519D31D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactivePropertyPackageTest", "ReactivePropertyPackageTest\ReactivePropertyPackageTest.csproj", "{2F75BDC8-9247-4B8D-9C34-6E301C83D136}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ReactivePropertyGeneratorTestModels", "ReactivePropertyGeneratorTestModels\ReactivePropertyGeneratorTestModels.shproj", "{344B1771-E55D-4F9E-8243-2B578D817468}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactivePropertyGeneratorLibraryTest", "ReactivePropertyGeneratorLibraryTest\ReactivePropertyGeneratorLibraryTest.csproj", "{02EE294D-D969-48AE-BCB5-2A340C7FCDDD}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ReactivePropertyGeneratorTestModels\ReactivePropertyGeneratorTestModels.projitems*{02ee294d-d969-48ae-bcb5-2a340c7fcddd}*SharedItemsImports = 5
+		ReactivePropertyGeneratorTestModels\ReactivePropertyGeneratorTestModels.projitems*{2f75bdc8-9247-4b8d-9c34-6e301c83d136}*SharedItemsImports = 5
+		ReactivePropertyGeneratorTestModels\ReactivePropertyGeneratorTestModels.projitems*{344b1771-e55d-4f9e-8243-2b578d817468}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -15,6 +26,14 @@ Global
 		{2C6F4034-D6DC-48E7-B520-5B1D519D31D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C6F4034-D6DC-48E7-B520-5B1D519D31D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C6F4034-D6DC-48E7-B520-5B1D519D31D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F75BDC8-9247-4B8D-9C34-6E301C83D136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F75BDC8-9247-4B8D-9C34-6E301C83D136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F75BDC8-9247-4B8D-9C34-6E301C83D136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F75BDC8-9247-4B8D-9C34-6E301C83D136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02EE294D-D969-48AE-BCB5-2A340C7FCDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02EE294D-D969-48AE-BCB5-2A340C7FCDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02EE294D-D969-48AE-BCB5-2A340C7FCDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02EE294D-D969-48AE-BCB5-2A340C7FCDDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
